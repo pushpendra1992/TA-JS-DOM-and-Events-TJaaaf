@@ -16,4 +16,5 @@ function handler() {
 	});
 }
 
+
 boxes.addEventListener("mousemove", handler);
