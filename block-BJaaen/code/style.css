@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(29, 29, 63);
+    color: rgb(214, 237, 255);
+    margin: 1em;
+    max-height: 100vh;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(214, 237, 255);
+    color: rgb(29, 29, 63);
+    ;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+button:active {
+    background: rgb(17, 17, 41);
+}
+
+.scoreboard {
+    width: 14em;
+    margin: auto;
+    border: 1px solid rgb(214, 237, 255);
+}
+
+.scoreboard h2 {
+    border-bottom: 1px solid rgb(214, 237, 255);
+    margin: 0;
+    padding: 10px;
+}
+
+.scoreboard table {
+    margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreboard th,
+.scoreboard td {
+    text-align: center;
+}
+
+.scoreboard td {
+    font-size: 3em;
+    padding: 0 20px;
+}
+
+#status {
+    margin-top: 20px;
+}
