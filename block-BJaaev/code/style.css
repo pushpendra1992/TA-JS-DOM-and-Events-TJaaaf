@@ -1,0 +1,30 @@
+body{
+    background-color: #0000FF;
+}
+
+.container{
+    margin-top: 20px;
+    background-color: #fff;
+    width: 30%;
+    border-top-left-radius: 66px;
+    padding: 35px;
+
+
+}
+#Active,
+#Completed,
+#All{
+    cursor: pointer;
+}
+
+span{
+    cursor: pointer;
+}
+
+#circle{
+ 
+   border-radius: 50%;
+}
+.footer{
+    width: 100%;
+}
