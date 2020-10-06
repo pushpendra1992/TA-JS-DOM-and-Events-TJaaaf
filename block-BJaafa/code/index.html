@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Extension</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="logo">
+    <img class="logo-img" src="/images/logo.svg">
+  </div>
+  <button class="toggle swap">Dark Mode</button>
+  <button class="normal">Normal Mode</button>
+  <section class="container grid">
+    <div class="content-box">
+      <div class="user-welcoming">
+        <h2 id="user">Hey, Aspiring developers!</h2>
+        <p class="intro">Have a look at some useful and interesting web-development tools,which make your work easier
+        </p>
+      </div>
+      <div class="Software">
+        <h3 id="software-name"></h3>
+      </div>
+      <div class="description">
+        <p id="software-des"></p>
+      </div>
+      <div class="website">
+        <a id="software-link" href="#">Go to the website</a>
+      </div>
+      <div class="random-software-generate">
+        <button id="random-generate">Get some more tools</button>
+      </div>
+    </div>
+  </section>
+  <script src="./data.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,406 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ================General styling======================== */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.content-box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px 0;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 10px #d9d9d9, 
+                 -5px -5px 10px #ffffff;
+}
+
+ .logo-img{
+     width: 100px;
+    
+ }
+
+#user {
+    font-size: 40px;
+    color:black;
+    text-shadow: 1px 1px 3px lightgray;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    
+
+
+}
+
+
+
+.user-welcoming p {
+    color:black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.Software {
+    border-radius: 50px;
+   
+    margin-bottom: 10px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+ }
+
+
+#software-name {
+    font-size: 35px;
+    padding: 20px 0 20px 0;
+    color: black;
+    font-weight: 700;
+   
+    padding-left: 66px;
+     border-radius: 15px;
+}
+/* #software-name:hover{
+ 
+} */
+
+.description{
+    border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+}
+
+
+.description p {
+    padding: 20px 0 20px 0;
+    color: tomato;
+    font-weight: 400;
+    color: black;
+    padding: 66px;
+    line-height: 2;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 360px;
+
+}
+
+.website{
+    padding: 20px;
+    margin:20px 0;
+    background: linear-gradient(145deg, #e0e1e1, #ffffff);
+    box-shadow: 20px 10px 25px #eaebeb,
+        -20px -10px 25px #ffffff;
+        border-radius: 27px;
+
+    
+   
+}
+#software-link {
+    font-size: 25px;
+    padding: 20px;
+    color: black;
+  
+  
+
+}
+
+/* .website:hover{
+    color: red;
+    font-weight: 900;
+    
+   
+    position: relative;
+  
+    margin-bottom: 25px;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+background: #f1f4f1;
+box-shadow: inset 5px 5px 24px #cdcfcd, 
+            inset -5px -5px 24px #ffffff;
+
+} */
+
+
+
+/* .download-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.download-btn a {
+    color: #B469F7;
+    margin: 10px 30px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e0e1e1, #ffffff);
+    box-shadow: 20px 10px 25px #eaebeb,
+        -20px -10px 25px #ffffff;
+} */
+
+
+.random-software-generate {
+    /* background: linear-gradient(266.78deg, #60D77A 9.25%, #2FB94D 93.72%); */
+    width: 100%;
+    height: 55px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+    
+
+
+}
+
+
+
+.random-software-generate:active{
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+      inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #79e3b6;
+  
+}
+
+#random-generate {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    color: black;
+}
+
+
+.toggle{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   
+    padding: 10px;
+    color: black;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+    border-radius: 27px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.mode {
+
+    color: white;
+    border-radius: 78px;
+    background: linear-gradient(145deg, #141010, #181313);
+    box-shadow:  12px 12px 29px #0c0a0a, 
+                 -12px -12px 29px #201a1a;
+
+
+
+
+}
+
+
+.modeBtn:hover{
+   
+background: #110d0d;
+box-shadow: inset 12px 12px 29px #090707, 
+            inset -12px -12px 29px #191313;
+}
+
+
+.normal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   
+    padding: 10px;
+    color:white;
+    background: linear-gradient(145deg, #141010, #181313);
+    box-shadow:  25px 25px 29px #0c0a0a, 
+                 -25px -25px 35px #201a1a;
+    border-radius: 27px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
