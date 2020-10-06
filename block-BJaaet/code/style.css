@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--secondary-bg: #377e808;
+	--primary-bg: #fdf5e8;
+}
+
+body {
+	font: 400 18px/1.5 "Kufam", cursive;
+	background-color: var(--primary-bg);
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0;
+	padding: 1.5rem;
+	min-height: 100vh;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 2.25rem;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(137, 43, 226, 0.8);
+	margin-bottom: 1.5rem;
+}
+
+/* Main */
+
+.card {
+	width: 480px;
+	background-color: white;
+	padding: 1.5rem;
+	line-height: 1.8;
+	border-radius: 10px;
+}
+
+input {
+	font: inherit;
+	display: block;
+	width: 100%;
+	font-size: 1.25rem;
+	padding: 0.5rem 1rem;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-bottom: 1.5rem;
+}
+
+input:focus {
+	border: 1px solid green;
+}
+
+span {
+	color: red;
+	float: right;
+}
+
+span::before {
+	content: "\f00d";
+	font: inherit;
+	vertical-align: text-top;
+	font-family: "Font Awesome 5 Pro";
+}
+
+li:first-child {
+	border-top: 1px solid rgb(143, 206, 143);
+}
+
+li {
+	padding: 1rem;
+	border-bottom: 1px solid rgb(143, 206, 143);
+}
+
+li::before {
+	content: "👉🏽";
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-right: 1rem;
+}
