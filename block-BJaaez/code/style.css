@@ -1,0 +1,27 @@
+body{
+    background-color: #fff;
+     width: 360px;
+  }
+
+.container{
+    background-color: blue;
+    width: 100%;
+    border-top-left-radius: 66px;
+    padding: 35px;
+    
+
+
+}
+#Active,
+#Completed,
+#All{
+    cursor: pointer;
+}
+
+span{
+    cursor: pointer;
+}
+
+#circle{
+      border-radius: 50%;
+}
